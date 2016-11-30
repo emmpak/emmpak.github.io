@@ -22,3 +22,5 @@ function addClass() {
         num[i].setAttribute("onmouseout", "unDo(this)");
     }
 }
+
+flexibility(document.body);

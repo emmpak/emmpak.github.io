@@ -23,6 +23,7 @@ html, body {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  -js-display: flex;
   display: flex; /* This will make the columns align next to each other, if their width is defined. */
   flex-wrap: wrap;
   margin-bottom: 20px;
@@ -38,6 +39,7 @@ html, body {
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  -js-display: flex;
   display: flex; /* This will make the columns align next to each other, if their width is defined. */
   flex-wrap: wrap;
   margin-bottom: 20px;
@@ -167,6 +169,7 @@ h5 {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+    -js-display: flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -180,6 +183,7 @@ h5 {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+    -js-display: flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -203,6 +207,7 @@ h5 {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+    -js-display: flex;
     display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -230,6 +235,7 @@ h5 {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+    -js-display: flex;
     display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -284,6 +290,7 @@ footer {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+    -js-display: flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -304,6 +311,7 @@ footer {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+    -js-display: flex;
     display: flex;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
