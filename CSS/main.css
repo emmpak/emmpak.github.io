@@ -1,31 +1,28 @@
 * { 
 font-family: 'Cormorant Garamond', serif;
 }
-
 * {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 -ms-box-sizing: border-box;
 box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
 }
-
 .grid {
   margin: 10px auto; /* center content in case the user is looking at the page on a very large screen (auto margin horizontally) */
   max-width: 1260px;
   width: 100%;
   height: 100%;
 }
-
 .rowSec {
   width: 100%;
   height: 100%;
   display: flex; /* This will make the columns align next to each other, if their width is defined. */
   flex-wrap: wrap;
   margin-bottom: 20px;
+  justify-content: center;
 }
 .rowSubSec {
   width: 100%;
@@ -34,6 +31,7 @@ html, body {
   flex-wrap: wrap;
   margin-bottom: 20px;
   justify-content: center;
+  clear:both
 }
 .col-1 {
   width: 8.33%;
@@ -89,7 +87,6 @@ nav {
     background-image: url(../Images/belograd.jpg);
     background-repeat: no-repeat;
 }
-
 .sectTwo {
     background-image: url(../Images/bansko.jpg);
     background-repeat: no-repeat;
@@ -97,20 +94,25 @@ nav {
     background-attachment: fixed;
     height: 100%;
 }
-
 .sectThree {
-    background-image: url(../Images/bulgaria2.jpg);
+    background-image: url(../Images/pirin2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
 }
-
 .sectFour {
-    background-image: url(../Images/nesebar.jpg);
+    background-image: url(../Images/black%20sea.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
+}
+.sectFive {
+    background-image: url(../Images/%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD_%D0%B1%D1%80%D1%8F%D0%B3.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
 }
 
@@ -122,7 +124,6 @@ h1 {
     margin-bottom: -10px;
     font-weight: 100;
 }
-
 h2 {
     font-size: 30px;
     padding-right: 30px;
@@ -130,7 +131,6 @@ h2 {
     color: white;
     font-weight: 100;
 }
-
 h3 {
     font-size: 70px;
     align-self: center;
@@ -138,7 +138,20 @@ h3 {
     margin-bottom: -10px;
     font-weight: 10;
 }
-
+h4 {
+    font-size: 50px;
+    font-weight: 10;
+    color: white;
+    position: absolute;
+    margin: auto;
+    align-self: center;    
+}
+h5 {
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
 #title {
     display: flex;
     flex-direction: column;
@@ -149,35 +162,98 @@ h3 {
     flex-direction: column;
     justify-content: center;
 }
-
 .intro {
     text-align: center;
     margin: auto;
     color: #67747c;
     font-weight: 500;
     line-height: 24px;
-
 }
-
 .introimgbox {
     display: flex;
+    justify-content: center;
 }
-
 .introimg {
     width: 100%;
     margin: auto 0;
     padding: 5px;
-
 }
-
-#intro {
-    margin: 0 20px;
-    
+.map {
+    background-image: url(../Images/maps_static-10254.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%
 }
-
-
-
-.imgright {
+.smallimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.jsimage {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 50%;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
+.mountains {
+    position: relative;
+}
+#first {
+    font-size: 40px;
+    font-weight: 200;
+    color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 5%;
+    right: 10px;
+}
+#second {
+    font-size: 60px;
+    font-weight: 100;
+    color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    margin-right: -15px;
+}
+#third {
+    font-size: 30px;
+    font-weight: 200;
+    color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 55%;
+    left: 10px;
+}
+#fourth {
+    font-size: 70px;
+    font-weight: 300;
+    color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 70%;
+    right: 50px;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #464646;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerbuttons {
+    display: flex;
+    justify-content: center;
+}
+button {
+    font-weight: 50;
+    padding: 10px;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border-color: gold;
+    border-style:double;
+    margin: 0 10px 10px 10px;
+}
+

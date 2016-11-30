@@ -6,8 +6,9 @@
   <link rel="stylesheet" href="CSS/normalize.css">
   <link rel="stylesheet" href="CSS/main.css">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <script src="js/javaFunction.js"></script>
 </head>
-<body>
+<body onload = "addClass()">
   <div class="grid">
     <div class="rowSec sectOne">
       <div class="col-12" id="title">
@@ -21,7 +22,7 @@
 </p>
       </div>
       </div>
-      <div class="rowSubSec">
+      <div class="rowSec">
         <div class="col-3 introimgbox">
             <img src="Images/sofia2.jpg" alt="beach" class="introimg"/>
         </div>
@@ -34,6 +35,12 @@
               <p>Welcome to Bulgaria. An exciting trip awaits us. Situated on the Balkan peninsula, Bulgaria borders five countries - Greece and Turkey to the south, Macedonia and Serbia to the west, and Romania to the north.</p>
           </div>
       </div>
+      <div class="rowSec map"></div>
+      <div class="rowSubSec">
+          <div class="col-6 intro">
+              <p>Today, our journey starts high in the mountains where we can experience the beauty and uniqueness of Bulgaria. A place where deep glossy lakes relfect the sunlight from the early hours of the morning until twilight when crepuscular rays stream through cliffs towering above clouds.</p>
+          </div>
+      </div>
       <div class="rowSec sectTwo">
           <div class="col-12 imagecaption">
              <h3>Live</h3>
@@ -42,14 +49,59 @@
           </div>
       </div>
       <div class="rowSec">
-          <div class="col-6"></div>
+          <div class="col-6 mountains">
+              <h4 id="first">One third of Bulgaria's territory</h4>
+              <h4 id="second">43 Mountains</h4>
+              <h4 id="third">Thousands of kilometres of trails</h4>
+              <h4 id="fourth">2925 meters</h4>
+          </div>
           <div class="col-6">
-              <img src="Images/rila.jpg" alt="Rila" class="imgright"/>
-              <img src="Images/pirin.jpg" alt="Pirin" class="imgright"/>
+              <div class="jsimage">
+                  <img src="Images/rila.jpg" alt="Seven Rila Lakes" class="smallimg"/>
+              </div>
+              <div class="jsimage">
+                  <img src="Images/koncheto.jpg" alt="Koncheto in Pirin Mountains" class="smallimg"/>
+              </div>
           </div>
       </div>
       <div class="rowSec sectThree"></div>
+      <div class="rowSubSec">
+          <div class="col-6 intro">
+              <p>Let's continue our journey to the east where the air smells of salt and golden sand dunes lay across the entire Black Sea coast. Grab a surfboard, break some waves, feel the sand between your toes and admire the susnset on a hammock at one of the many beach bar</p>
+          </div>
+      </div>
       <div class="rowSec sectFour"></div>
+      <div class="rowSec">
+          <div class="col-6" id="sample">
+              <div class="jsimage">
+                  <img src="Images/old-nessebar-city-bulgaria-aerial-view-from-helicopter-1600x1066.jpg" alt="Ancient City of Nesebar" class="smallimg"/>
+              </div>
+              <div class="jsimage">
+                  <img src="Images/BolataCove1.jpg" alt="Bolata Cove" class="smallimg"/>
+              </div>
+          </div>
+          <div class="col-6 mountains">
+              <h4 id="first">378 km of coastline</h4>
+              <h4 id="second">Fantastic seafood</h4>
+              <h4 id="third">Inexpensive lodging</h4>
+              <h4 id="fourth">70 beaches</h4>
+          </div>
+      </div>
+      <div class="rowSec sectFive"></div>
+      <div class="rowSubSec">
+          <div class="col-6 intro">
+              <p>I hope you enjoyed our journey today.</p>
+          </div>
+      </div>
+      <footer>
+          <div class="col-8">
+              <h5>Travel is the only thing you buy that makes you richer.</h5>
+          </div>
+          <div class="col-8 footerbuttons">
+                  <button>Discover Bulgaria</button>
+                  <button>Discover the World</button>
+          </div>
+      </footer>
     </div>
 
         
